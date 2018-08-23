@@ -1,0 +1,24 @@
+body {
+    background: url(../images/homebg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+.jumbotron {
+    background-color: transparent;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 2px gray;
+    color: rgb(83, 158, 80);
+    
+}
+h6 {
+    color: gray;
+    text-shadow: 3px 3px 5px white;
+}
+
+#take-survey {
+font-size: 17px;    
+}
