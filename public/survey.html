@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <!--CSS for background image-->
-    <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/survey.css" />
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Anton|Permanent+Marker" rel="stylesheet">
 
@@ -28,7 +28,7 @@
 
             <br>
             <div class="form-group">
-                <h3 style="text-align: center">About You</h3>
+                <h3>About You</h3>
                 <label for="exampleFormControlInput1">
                     <h6>Name (Required)</h6>
                 </label>
@@ -54,7 +54,7 @@
             <h3>Question 1</h3>
             <h6>Your mind is always buzzing with unexplored ideas and plans.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect021">
+                <select class="custom-select" id="question1">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -71,7 +71,7 @@
             <h3>Question 2</h3>
             <h6>Generally speaking, you rely more on your experience than your imagination.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect022">
+                <select class="custom-select" id="question2">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -86,9 +86,9 @@
 
             <!--Question 3-->
             <h3>Question 3</h3>
-            <h6>AYou find it easy to stay relaxed and focused even when there is some pressure.</h6>
+            <h6>You find it easy to stay relaxed and focused even when there is some pressure.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect023">
+                <select class="custom-select" id="question3">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -105,7 +105,7 @@
             <h3>Question 4</h3>
             <h6>You rarely do something just out of sheer curiosity.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect024">
+                <select class="custom-select" id="question4">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -122,7 +122,7 @@
             <h3>Question 5</h3>
             <h6>People can rarely upset you.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect025">
+                <select class="custom-select" id="question5">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -139,7 +139,7 @@
             <h3>Question 6</h3>
             <h6>It is often difficult for you to relate to other people’s feelings.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect026">
+                <select class="custom-select" id="question6">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -156,7 +156,7 @@
             <h3>Question 7</h3>
             <h6>In a discussion, truth should be more important than people’s sensitivities.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect027">
+                <select class="custom-select" id="question7">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -173,7 +173,7 @@
             <h3>Question 8</h3>
             <h6>You rarely get carried away by fantasies and ideas.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect028">
+                <select class="custom-select" id="question8">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -190,7 +190,7 @@
             <h3>Question 9</h3>
             <h6>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect029">
+                <select class="custom-select" id="question9">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -207,7 +207,7 @@
             <h3>Question 10</h3>
             <h6>You feel more energetic after spending time with a group of people.</h6>
             <div class="input-group mb-3">
-                <select class="custom-select" id="inputGroupSelect0210">
+                <select class="custom-select" id="question10">
                     <option selected>Select an Option:</option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -222,7 +222,7 @@
             <br>
             <hr>
             <br>
-            <button id="submit-servey" type="button" class="btn btn-light btn-lg btn-block">Submit Survey</button>
+            <button id="submit-survey" type="button" class="btn btn-light btn-lg btn-block">Submit Survey</button>
 
             <!--Modal after submit-->
             <div class="modal" tabindex="-1" role="dialog">
@@ -247,12 +247,99 @@
 
             <br>
             <br>
-            <a href="url">API Friends List</a> |
-            <a href="url">Git Hub Repo</a>
+            <a href="api/friends">API Friends List</a> |
+            <a href="https://github.com/thisisjax/Friend-Finder">Git Hub Repo</a>
         </form>
 
     </div>
+<script>
 
+    
+</script>
 </body>
 
 </html>
+
+<script type="text/javascript">
+
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+  
+
+
+    // Question: What does this code do??
+    
+  
+    $("#submit-survey").on("click", function(event) {
+      event.preventDefault();
+
+//var insertNumbers = aggraigatedScores
+
+ //q1+","q2+","
+
+        var aggrigatedScores={
+            q1:$("#question1").val(),
+            q2:$("#question2").val(),
+            q3:$("#question3").val(),
+            q4:$("#question4").val(),
+            q5:$("#question5").val(),
+            q6:$("#question6").val(),
+            q7:$("#question7").val(),
+            q8:$("#question8").val(),
+            q9:$("#question9").val(),
+            q10:$("#question10").val(),
+        }
+        //console.log(aggrigatedScores);
+
+    //   // Here we grab the form elements
+    //   var newFriends = {
+    //   name: $("#name").val().trim(),
+    //   photo: $("#photo").val().trim(),
+    //   score: insertNumbers
+    //   };
+
+       var newFriends = {
+      name: $("#name").val().trim(),
+      photo: $("#photo").val().trim(),
+      score: "5, 5, 5, 5, 5, 1, 5, 5, 5, 5"
+      };
+
+
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+$.post("/api/friends", newFriends) 
+      .then(function(data) {
+       console.log(data)
+        
+      });
+
+      $.post("/api/friends", newFriends,
+        function(data) {
+
+          // If a table is available... tell user they are booked.
+          if (data) {
+              
+            // alert("Yay! You are officially booked!");
+          }
+
+          // If a table is available... tell user they on the waiting list.
+        //   else {
+        //     alert("Sorry you are on the wait list");
+        //   }
+
+          // Clear the form when submitting
+          $("#name").val("");
+          $("photo").val("");
+          
+
+        });
+
+    });
+
+</script>
