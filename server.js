@@ -14,8 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //Route Files
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/apiroutes")(app);
+require("./routes/htmlroutes")(app);
 
 // // Basic route that sends the user first to the AJAX Page
 // app.get("/", function (req, res) {
